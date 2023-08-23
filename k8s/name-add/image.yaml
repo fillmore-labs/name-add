@@ -1,0 +1,8 @@
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: name-add
+imageTag:
+  name: name-add-image
+  newName: registry.fillmore-labs.com/name-add

@@ -1,0 +1,7 @@
+---
+steps:
+  - label: ':go: Build'
+    env: 
+      GOPRIVATE: github.com/fillmore-labs/name-service
+    commands:
+      - cd main && go build
