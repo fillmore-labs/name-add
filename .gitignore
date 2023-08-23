@@ -1,0 +1,11 @@
+.*
+!/.envrc
+!/.gitattributes
+!/.github/
+!/.gitignore
+!/.golangci.yaml
+!/.ko.yaml
+!/.sops.yaml
+!/.yamlfmt
+!/.yamllint
+/bin/

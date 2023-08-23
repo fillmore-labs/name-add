@@ -1,0 +1,23 @@
+= Knative Name Adder Function
+:Date:      2023-08
+:Revision:  v0.1
+:toc: macro
+
+toc::[]
+
+== Purpose
+
+An sample Knative function that uses the https://github.com/fillmore-labs/name-service[name service].
+
+== Deploy
+
+[source,shell]
+----
+./deploy-name-add.sh
+----
+
+== Test
+
+[source,shell]
+curl -d 'givenName=Peter' -d 'surname=Pan' \
+  http://name-add.names.fillmore-labs.com

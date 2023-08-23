@@ -1,0 +1,37 @@
+---
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: name-add
+spec:
+  template:
+    spec:
+      containers:
+        - name: name-add
+          image: name-add-image
+          resources:
+            requests:
+              memory: 100Mi
+              cpu: 100m
+            limits:
+              memory: 400Mi
+              cpu: 300m
+          volumeMounts:
+            - name: cfg
+              mountPath: /home/nonroot/cfg
+              subPath: cfg
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop:
+                - ALL
+            seccompProfile:
+              type: RuntimeDefault
+      automountServiceAccountToken: false
+      volumes:
+        - name: cfg
+          configMap:
+            name: name-add-config
+            optional: true
