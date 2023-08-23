@@ -3,7 +3,7 @@ module function
 go 1.21
 
 require (
-	github.com/fillmore-labs/name-service v0.0.0-20230823210441-7d06e47aa1d5
+	github.com/fillmore-labs/name-service 76497f84022b
 	google.golang.org/grpc v1.57.0
 )
 
