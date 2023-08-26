@@ -40,3 +40,5 @@ google.golang.org/protobuf v1.31.0 h1:g0LDEJHgrBl9N9r17Ru3sqWhkIx2NB67okBHPwC7hs
 google.golang.org/protobuf v1.31.0/go.mod h1:HV8QOd/L58Z+nl8r43ehVNZIU/HEI6OcFqwMG9pJV4I=
 knative.dev/func-go v0.18.3 h1:vEaFAmh0C5SqBiI53dc7RDEibavJRFqGnemzHJ0ZzLU=
 knative.dev/func-go v0.18.3/go.mod h1:+Og4a5pqW5WfBrv8Xf0jcTx5s+LiUpzcXyWBIuwKz30=
+knative.dev/func-go v0.19.0 h1:EYmc3L8eh48YJf79d8B/Y/KnWRPyRzVXUPBLpFn2boU=
+knative.dev/func-go v0.19.0/go.mod h1:+Og4a5pqW5WfBrv8Xf0jcTx5s+LiUpzcXyWBIuwKz30=

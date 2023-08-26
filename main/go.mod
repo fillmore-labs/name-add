@@ -8,7 +8,7 @@ toolchain go1.21.0
 
 require (
 	f v0.0.0-00010101000000-000000000000
-	knative.dev/func-go v0.18.3
+	knative.dev/func-go v0.19.0
 )
 
 require (
