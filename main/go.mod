@@ -4,7 +4,7 @@ replace f => ./f
 
 go 1.21
 
-toolchain go1.23.3
+toolchain go1.23.4
 
 require (
 	f v0.0.0-00010101000000-000000000000
